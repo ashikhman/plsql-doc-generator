@@ -1,6 +1,11 @@
 package com.ashikhman;
 
-public class UppercaseMethodListener extends Java8BaseListener {
+import org.antlr.v4.runtime.tree.TerminalNode;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class UppercaseMethodListener extends PlSqlParserBaseListener {
 
     private List<String> errors = new ArrayList<>();
 
